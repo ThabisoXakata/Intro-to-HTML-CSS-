@@ -7,4 +7,7 @@ What is CSS?
 - Cascading style sheets acts as the stylist of web pages, meaning that it is responsible for how the we page looks in terms of the text fonts, colors, sizes, and has the capabilities of adding special animations and other ways of interactions in order to give the page visitor a satisfying web experience and interaction. CSS comes with computer system tricks and that makesit both fragile and powerful at the same time
 
 ## Unit 2: HTML Syntax
--
+- HTML uses tags that are enclosed in less and greater than symbols"<>"
+```
+<p>  opening tags
+```
