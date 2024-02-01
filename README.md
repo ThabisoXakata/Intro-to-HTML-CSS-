@@ -16,6 +16,6 @@ To add on,  These tags are used to devide intended information(elements) in your
 <p></p> -              Refers to the new paragraph's opening and closing tag
 <h1></h1> to <h6></h6> Refers to Headlines and their sizes in respective to their significance and aense of urgence or authority. Headlines play a vital role in making the people understand the structure of the web 
                        page they are on, as headlines can be  the window top the actual content of the page. There are 6 different sizes of headlines in respective to their levels of authority, and they all have 
-                       distinctive visual effects on the web page.
+                       distinctive visual effects on the web page, with <h1> having the greatest headline authority while <h6> has the least.
 
 ```
