@@ -14,13 +14,18 @@ To add on,  These tags are used to devide intended information(elements) in your
                          determine which elements are going to be valid. This the first line required for every HTML code.
 <title></title>        - Defines the title for the documents
 <p></p>                - Refers to the new paragraph's opening and closing tag
-<h1></h1> to <h6></h6> - Refers to Headlines and their sizes in respective to their significance and aense of urgence or authority. Headlines play a vital role in making the people understand the structure of the web 
+<h1></h1> to <h6></h6> - Refers to Headlines and their sizes in respective to their significance and aense of urgence or authority. Headlines play a vital role in making the people understand the structure of the 
+                         web 
                          page they are on, as headlines can be  the window top the actual content of the page. There are 6 different sizes of headlines in respective to their levels of authority, and they all have 
-                         distinctive visual effects on the web page, with <h1> having the greatest headline authority while <h6> has the least and gets the least attention compared the other headlines. The h1 serves 
-                         as the main title, while the h2 acts as a subtitle for the content
-<i></i>                - Used to apply visual italics to a text on a web page
+                         distinctive visual effects on the web page, with <h1> having the greatest headline authority while <h6> has the least and gets the least attention compared the other headlines. The h1 
+                         serves as the main title, while the h2 acts as a subtitle for the content.
+<i></i>                - Used to apply visual italics to a text on a web page.
 <em></em>              - Refers to emphasized text within a web page, appears the same way as italics but carry a different meaning to the screen reader and the human reading it.
 <strong></strong>      - Used to show importance, seriousness, or urgency of a text on a web page. 
 <b></b>                - Used to visually bolden text on a web page without carrying any weight nor important meaning for the computer and the human. 
 ```
 - HTML Lists
+  There are 3 types of lists used in HTML, namely unordered, ordered, and definition lists.
+  To define the entire list and specify its type, we use the "ul" element for an unordered list, "ol" for an ordered list, and "dl" for definition list
+  Each item in the list is enclosed in an "li" element.
+
