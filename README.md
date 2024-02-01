@@ -26,6 +26,6 @@ To add on,  These tags are used to devide intended information(elements) in your
 ```
 - HTML Lists
   There are 3 types of lists used in HTML, namely unordered, ordered, and definition lists.
-  To define the entire list and specify its type, we use the "ul" element for an unordered list, "ol" for an ordered list, and "dl" for definition list
+  To define the entire list and specify its type, we use the "ul" element for an unordered list, "ol" for an ordered list, and "dt" for definition term
   Each item in the list is enclosed in an "li" element.
 
