@@ -7,7 +7,10 @@ What is CSS?
 - Cascading style sheets acts as the stylist of web pages, meaning that it is responsible for how the we page looks in terms of the text fonts, colors, sizes, and has the capabilities of adding special animations and other ways of interactions in order to give the page visitor a satisfying web experience and interaction. CSS comes with computer system tricks and that makesit both fragile and powerful at the same time
 
 ## Unit 2: HTML Syntax
-- HTML uses tags that are enclosed in less and greater than symbols "<>" to define elements that are like content containing packages. Many of these elements require both the opening and closing tags to function properly and provide the desired results. These tags are used to devide paragraphs and other intended information(elements) in your program and let the computer know that these are seperate paragraphas and entities.
+- HTML uses tags that are enclosed in less and greater than symbols "<>" to define elements that are like content containing packages. Many of these elements require both the opening and closing tags to function properly and provide the desired results.
 ```
+To add on,  These tags are used to devide intended information(elements) in your program and let the computer know that these are seperate entities.
+<!DOCTYPE html> The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, PHP, Javascript etc, so that it can be able to determine which elements are going to be valid. This the first line required for every HTML code.
+<title> Defines the ti
 <p>  opening tags
 ```
