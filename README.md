@@ -29,3 +29,17 @@ To add on,  These tags are used to devide intended information(elements) in your
   To define the entire list and specify its type, we use the "ul" element for an unordered list, "ol" for an ordered list, and "dt" for definition term
   Each item in the list is enclosed in an "li" element.
 
+```
+An example of how lists are applied to HTML...
+<ul>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ul>
+<ol>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ol>
+```
+
