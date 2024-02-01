@@ -10,9 +10,12 @@ What is CSS?
 - HTML uses tags that are enclosed in less and greater than symbols "<>" to define elements that are like content containing packages. Many of these elements require both the opening and closing tags to function properly and provide the desired results.
 ```
 To add on,  These tags are used to devide intended information(elements) in your program and let the computer know that these are seperate entities.
-<!DOCTYPE html> The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, PHP, Javascript etc, so that it can be able to determine 
-                which elements are going to be valid. This the first line required for every HTML code.
-<title>Defines the title for the documents</title>
-<p>Refers to the new paragraph's opening and closing tag.</p>
+<!DOCTYPE html>        The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, PHP, Javascript etc, so that it can be able to 
+                       determine which elements are going to be valid. This the first line required for every HTML code.
+<title></title>        Defines the title for the documents
+<p></p> -              Refers to the new paragraph's opening and closing tag
+<h1></h1> to <h6></h6> Refers to Headlines and their sizes in respective to their significance and aense of urgence or authority. Headlines play a vital role in making the people understand the structure of the web 
+                       page they are on, as headlines can be  the window top the actual content of the page. There are 6 different sizes of headlines in respective to their levels of authority, and they all have 
+                       distinctive visual effects on the web page.
 
 ```
