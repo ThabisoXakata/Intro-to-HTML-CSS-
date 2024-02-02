@@ -43,7 +43,7 @@ An example of how lists are applied to HTML...
 <dt>                      -- definition term: Defines a single term, which is described with a description detail <dd>. The <dl> tag is used to create a list of terms with their respective descriptions.
 <dd>                      -- definition description.
 ```
-<p>An example of a unorderd and orders lists:</p>
+<p>An example of a unordered and ordered lists:</p>
 
 <ul>
 <li>Mom</li>
