@@ -31,18 +31,29 @@ To add on,  These tags are used to devide intended information(elements) in your
 
 ```
 An example of how lists are applied to HTML...
-<ul>                      -- unordered list
+<ul>                      -- unordered list: Used when a list has no particular order to follow.
 <li>Coffee</li>
 <li>Tea</li>
 <li>Milk</li>
 </ul>
-<ol>                      -- ordered list
+<ol>                      -- ordered list: Used when a list has a specific order or sequence, usually numerical.
 <li>Coffee</li>
 <li>Tea</li>
 <li>Milk</li>
 </ol>
 
-<dt>                      -- definition term
-<dd>                      -- definition description
+<dl>                      -- definition list: Used when we want to create a list that resembles a key-value pair where instead of just items, we have terms and their corresponding descriptions. <dl> enwraps both                                 the <dt> and the <dd> inside.
+<dt>                      -- definition term: Defines a single term, which is described with a description detail <dd>. The <dl> tag is used to create a list of terms with their respective descriptions.
+<dd>                      -- definition description.
+An example of a definition list:
+
+<dl>
+<dt>available items</dt>
+<dd>This is a list of available items in our database</dd>
+<dd>This list only shows item that we currently have in our store shelves and backroom storage.</dd>
+<dt>item number</dt>
+<dd>This is the number assigned to each item available in our database</dd>
+<dd>This number is not the barcode of this item, but the number assigned to it by the store counter for stock taking purposes.</dd>
+</dl>
 ```
 
