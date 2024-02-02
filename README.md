@@ -25,9 +25,7 @@ To add on,  These tags are used to devide intended information(elements) in your
 <b></b>                - Used to visually bolden text on a web page without carrying any weight nor important meaning for the computer and the human. 
 ```
 - HTML Lists
-  There are 3 types of lists used in HTML, namely unordered, ordered, and definition lists.
-  To define the entire list and specify its type, we use the "ul" element for an unordered list, "ol" for an ordered list, and "dt" for definition term
-  Each item in the list is enclosed in an "li" element.
+  There are 3 types of lists used in HTML, namely unordered, ordered, and definition lists                                                                                                                               To define the entire list and specify its type, we use the "ul" element for an unordered list, "ol" for an ordered list, and "dt" for definition term                                                                  Each item in the list is enclosed in an "li" element.
 
 ```
 An example of how lists are applied to HTML...
@@ -56,4 +54,10 @@ An example of a definition list:
 <dd>This number is not the barcode of this item, but the number assigned to it by the store counter for stock taking purposes.</dd>
 </dl>
 ```
-
+HTML Quotes
+Quotes are used to attribute certain work or text within the web page to an intended entity. We attribute paragraphs to entities by using the "cite" element enwrapped by a "blockquote". To add on, within a blockquote, one can include any other element they may want to use i.e "h1" "ul" "ol" etc. There are other quoting methods that do not require blockquotes, they are just typed in and the end-result appears as curly quote, meaning that the text will appear with quotation marks in its read-only form.
+```
+<q></q>                    -- Can for short quotations that don't require paragraph breaks, will show text with quotation marks.
+<blockquote></blockquote>  -- Used distinguish what to quote with in certain text and or to attribute to a particular entity/name or word/s. It is also used to make long quotes look in a certain "special" manner,                                 one that does not make use quotation marks but attributes certain text within that web page to a particular entity.
+<cite></cite>              -- 
+```
