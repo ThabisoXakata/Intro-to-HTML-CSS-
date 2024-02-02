@@ -34,7 +34,6 @@ To add on,  These tags are used to devide intended information(elements) in your
 
 - HTML Lists
   There are 3 types of lists used in HTML, namely unordered, ordered, and definition lists                                                                                                                               To define the entire list and specify its type, we use the "ul" element for an unordered list, "ol" for an ordered list, and "dt" for definition term                                                                  Each item in the list is enclosed in an "li" element.
-
 ```
 An example of how lists are applied to HTML...
 <ul>                      -- unordered list: Used when a list has no particular order to follow.
@@ -52,6 +51,21 @@ An example of how lists are applied to HTML...
 <dt>                      -- definition term: Defines a single term, which is described with a description detail <dd>. The <dl> tag is used to create a list of terms with their respective descriptions.
 <dd>                      -- definition description.
 ```
+<p>An example of a unorderd and orders lists:</p>
+
+<ul>
+<li>Mom</li>
+<li>Dad</li>
+<li>Brother</li>
+<li>Sister</li>
+</ul>
+<ol>
+<li>Mom</li>
+<li>Brother</li>
+<li>Sister</li>
+<li>Dad</li>
+</ol>
+
 <p>An example of a definition list:</p>
 
 <dl>
@@ -62,6 +76,7 @@ An example of how lists are applied to HTML...
 <dd>This is the number assigned to each item available in our database</dd>
 <dd>This number is not the barcode of this item, but the number assigned to it by the store counter for stock taking purposes.</dd>
 </dl>
+
 HTML Quotes
 Quotes are used to attribute certain work or text within the web page to an intended entity. We attribute paragraphs to entities by using the "cite" element enwrapped by a "blockquote". To add on, within a blockquote, one can include any other element they may want to use i.e "h1" "ul" "ol" etc. There are other quoting methods that do not require blockquotes, they are just typed in and the end-result appears as curly quote, meaning that the text will appear with quotation marks in its read-only form.
 ```
