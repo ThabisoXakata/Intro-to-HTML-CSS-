@@ -31,15 +31,18 @@ To add on,  These tags are used to devide intended information(elements) in your
 
 ```
 An example of how lists are applied to HTML...
-<ul>
+<ul>                      -- unordered list
 <li>Coffee</li>
 <li>Tea</li>
 <li>Milk</li>
 </ul>
-<ol>
+<ol>                      -- ordered list
 <li>Coffee</li>
 <li>Tea</li>
 <li>Milk</li>
 </ol>
+
+<dt>                      -- definition term
+<dd>                      -- definition description
 ```
 
