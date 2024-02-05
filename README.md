@@ -130,7 +130,7 @@ i.e
 </footer>
 
 
-# Week 2
+# Week 2: What I have learnt so far.
 ## Unit 5: HTML Working with Graphics and Images
 Images: Most, if not all websites have images emebedded in them, wether as downloadable or read/view-only format. in our websites, we are gonna be adding/inserting images to web pages using the "src" element which is used to source out and display images from a stored directory or the web.
 ```
