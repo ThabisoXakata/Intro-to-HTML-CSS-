@@ -90,4 +90,14 @@ Other examples of attributes would be:
 ```
 ARIA (Accessible Rich Internet Application) roles provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to ensure a website is fully accessible even for people with impairements and disabilities.
 HTML Formating: 
+```
+We now know that we must use "<p>" for short paragraphs, but if we wanted to write longer texts that would, maybe, be attributed to an entity, we use the "<article>" element
 - In HTML, comments are inserted by typing "<!--" at the start and "-->" at the end.
+```
+## Unit 4: Navigation and Links
+On websites, one is bound to come across many links that have been placed on navigation bars, option packed menues, enticing teaser cards etc. A link is a specific text on a webpage that, when clicked, takes you to a different page on that website or takes you to a different website page as a whole. These specific texts/ links are called hyperlinks.
+HTML URL Pathways:
+For URL Pathways, we have absolute and relative links. Relative URLs are based on the current file's location, while absolute URLs start from the root of the website. An Absolute link is the root link that takes you to the home page of a website, i.e HTTPS://www.unitedstreets.com, while a relative link would be used if we wanted to go to a specific place within that website like viewing an image that is in a specific folder within that site, i.e  HTTPS://www.unitedstreets.com/images/profileimage.jpg.
+Navigation:
+Navigation refers to how a user is going to go around a website using links, navigation bars, menus etc.
+Wen creating a navigation bar, each link is wrapped in an element with the correct URL, and then enclosed in an "li" element to create a list of links, and enwrap that list in an "ul" element. CSS styling is used to enhance visual appearance.
