@@ -85,6 +85,8 @@ Attributes in HTML add power to any element. There are many element attributes i
 - Class: The HTML class attribute is used to specify a class for an HTML element that allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class. Multiple HTML elements can share the same class.  
 ```
 Other examples of attributes would be:
+<a>    - The anchor tag is used to tag a hyperlink, and is always followed be the the href attribute specifies the URL of the page the link goes to: i.e <p>An article By <cite><b> &copy; <a       
+         href="https://www.facebook.com/maccheez"> Thabiso Xakata</a></b></cite></p>, would take you to www.facebook.com/maccheez homepage.
 <lang> - allows developers to specify the language of the content using a short language code.
 <dir>  - Specifies the direction in which the text flows using "ltr" Left-To-Right Scripts and "rtl" Right-To-Left Scripts.
 ```
