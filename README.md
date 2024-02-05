@@ -103,3 +103,13 @@ For URL Pathways, we have absolute and relative links. Relative URLs are based o
 Navigation:
 Navigation refers to how a user is going to go around a website using links, navigation bars, menus etc.
 Wen creating a navigation bar, each link is wrapped in an element with the correct URL, and then enclosed in an "li" element to create a list of links, and enwrap that list in an "ul" element. CSS styling is used to enhance visual appearance.
+
+An Example of a navigation bar:
+
+<nav role="breadcrumb" aria-label="main menu">
+    <ul class="breadcrumbs">
+        <li><a href="/Home"> Home</a><li>
+        <li><a href="/people"> People</a><li>
+        <li><a href="/images"> Images</a><li></li>
+    </ul>
+</nav>
