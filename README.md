@@ -1,4 +1,4 @@
-# WEEK 1
+# WEEK 1: What I have learnt so far.
 ## Unit 1: Introduction to HTML & CSS
 What is HTML?
 - Hypertext Mark-up Language, also known as a declarative language, is used as a standard mark-up language designed to create web pages used by the browser to manipulate text, images, and other content, in order to display it in the required format. It serves as a channel for different types of content like words, images, videos, audio, forms, and interactive experiences. It consists of a siries of elements that describe the structure of a web page and tells the browser how to display the content. HTML is a combination of hypertext, which defines the link between web pages, and the markup language that is used to define the text document within the tag that designs the structure of web pages.
