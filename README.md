@@ -139,7 +139,9 @@ This is how you write a code that adds or inserts a downloadable image on to you
 img      - Simply means that an image is being inserted in that line or code,  the image can also be manipulated within that line code by increasing or decreasing               it's size and appearance.  
 src      - Refers to the source of the item to be selected
 alt      - Refers to the alternativetext that describe the image so that it can also be easily found on search engines by just searching for the images key words.               i.e "police dog" search should show you images of duty dogs with their handlers or in uniforms.
-Any image format is acceptable on HTML, we just need to specify it on HTML when we source it, i.e /images/FreePalestineArt.jpg"> 
+Any image format is acceptable on HTML, we just need to specify it on HTML when we source it, i.e /images/FreePalestineArt.jpg">
+PNG, JPG are the most common image formats available, PNG great for transparent feature, while JPG focuses on the quality of the picture.
+GIF are also popular for being responsive but not good on quality as they only support 256 shades of color, and SVG which is perfect for logos, icons and other types of illustrations that can be upsized or scaled to  without losing picture quality
 If you are sourcing your image from the internet, then the (img src="" alt="") should have the image's url inserted inside the "src" quotaion mark.
 i.e <img src="https://www.tiptongov.com/egov/images/1662419877_72085_o.jpg" alt="Police Dog">
 One might also add the height and width description to their image to manipulate it's size and how its hould look as an output.
