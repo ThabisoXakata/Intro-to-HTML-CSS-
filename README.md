@@ -89,3 +89,5 @@ Other examples of attributes would be:
 <dir>  - Specifies the direction in which the text flows using "ltr" Left-To-Right Scripts and "rtl" Right-To-Left Scripts.
 ```
 ARIA (Accessible Rich Internet Application) roles provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to ensure a website is fully accessible even for people with impairements and disabilities.
+HTML Formating: 
+- In HTML, comments are inserted by typing "<!--" at the start and "-->" at the end.
