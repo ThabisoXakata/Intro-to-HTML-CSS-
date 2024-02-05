@@ -106,10 +106,25 @@ Wen creating a navigation bar, each link is wrapped in an element with the corre
 
 An Example of a navigation bar:
 
-<nav role="breadcrumb" aria-label="main menu">
+<nav role="breadcrumb">
     <ul class="breadcrumbs">
-        <li><a href="/Home"> Home</a><li>
-        <li><a href="/people"> People</a><li>
-        <li><a href="/images"> Images</a><li></li>
+        <li><a href="/Home"> Home</a></li>
+        <li><a href="/people"> People</a></li>
+        <li><a href="/images"> Images</a></li>
     </ul>
 </nav>
+or  
+<nav role="navigation">
+    <ul class="navbar">
+        <li><a href="/Home"> Home</a></li>
+        <li><a href="/people"> People</a></li>
+        <li><a href="/images"> Images</a></li>
+    </ul>
+</nav>
+
+Footer links: Referes to links found on the footer of the web page
+i.e
+<footer>
+  <a href="/about/privacy"> Privacy Policy</a>
+  <a href="/about/legal"> Terms of Service</a>
+</footer>
