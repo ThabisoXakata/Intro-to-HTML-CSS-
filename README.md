@@ -122,9 +122,25 @@ or
     </ul>
 </nav>
 
-Footer links: Referes to links found on the footer of the web page
+Footer links: Refers to links found on the footer of the web page
 i.e
 <footer>
   <a href="/about/privacy"> Privacy Policy</a>
   <a href="/about/legal"> Terms of Service</a>
 </footer>
+
+
+# Week 2
+## Unit 5: HTML Working with Graphics and Images
+Images: Most, if not all websites have images emebedded in them, wether as downloadable or read/view-only format. in our websites, we are gonna be adding/inserting images to web pages using the "src" element which is used to source out and display images from a stored directory or the web.
+```
+This is how you write a code that adds or inserts a downloadable image on to your web page:
+<img src="FreePalestineArt.png" alt="Free Palestine Art">
+img      - Simply means that an image is being inserted in that line or code,  the image can also be manipulated within that line code by increasing or decreasing               it's size and appearance.  
+src      - Refers to the source of the item to be selected
+alt      - Refers to the alternativetext that describe the image so that it can also be easily found on search engines by just searching for the images key words.               i.e "police dog" search should show you images of duty dogs with their handlers or in uniforms.
+If you are sourcing your image from the internet, then the (img src="" alt="") should have the image's url inserted inside the "src" quotaion mark.
+i.e <img src="https://www.tiptongov.com/egov/images/1662419877_72085_o.jpg" alt="Police Dog">
+```
+
+
