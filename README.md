@@ -76,3 +76,16 @@ Quotes are used to attribute certain work or text within the web page to an inte
 <blockquote></blockquote>  -- Used distinguish what to quote with in certain text and or to attribute to a particular entity/name or word/s. It is also used to make long quotes look in a certain "special" manner,                                 one that does not make use quotation marks but attributes certain text within that web page to a particular entity.
 <cite></cite>              -- Attributes patragraph texts to specific entities. When used inside a blockquote, attributes that whole text to that specific entity .
 ```
+## Unit 3: Troubleshooting and Debugging.
+- When troubleshooting a HTML code, one needs to access the developer tools and `select “inspect elements”, or you can select “tools” on your web browser, then “web developer” and select the ”inspector” option. The developer tools offer a wide range of different tabs that have many different tools and controls that one can use to debug, update, or make the necessary changes that a developer might need.  The ”Inspector” tool has 3 sections to it:
+- HTML on the left side, CSS in the middle, and  more options on the right.
+- Popular browsers like chrome, firefox and safari have developer tools that contain an HTML panel that we can use to inspect any website and see how other developers use HTML.
+HTML Attributes:
+Attributes in HTML add power to any element. There are many element attributes in HTML,
+- Class: The HTML class attribute is used to specify a class for an HTML element that allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class. Multiple HTML elements can share the same class.  
+```
+Other examples of attributes would be:
+<lang> - allows developers to specify the language of the content using a short language code.
+<dir>  - Specifies the direction in which the text flows using "ltr" Left-To-Right Scripts and "rtl" Right-To-Left Scripts.
+```
+ARIA (Accessible Rich Internet Application) roles provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to ensure a website is fully accessible even for people with impairements and disabilities.
