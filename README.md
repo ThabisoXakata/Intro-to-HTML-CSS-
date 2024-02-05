@@ -144,7 +144,9 @@ PNG, JPG are the most common image formats available, PNG great for transparent 
 GIF are also popular for being responsive but not good on quality as they only support 256 shades of color, and SVG which is perfect for logos, icons and other types of illustrations that can be upsized or scaled to  without losing picture quality
 If you are sourcing your image from the internet, then the (img src="" alt="") should have the image's url inserted inside the "src" quotaion mark.
 i.e <img src="https://www.tiptongov.com/egov/images/1662419877_72085_o.jpg" alt="Police Dog">
-One might also add the height and width description to their image to manipulate it's size and how its hould look as an output.
+One might also add the height and width description to their image to manipulate it's size and how its hould look as an output by adding the width and height properties.
 ```
+Responsive Images:
+
 
 
