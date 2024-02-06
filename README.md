@@ -146,7 +146,4 @@ If you are sourcing your image from the internet, then the (img src="" alt="") s
 i.e <img src="https://www.tiptongov.com/egov/images/1662419877_72085_o.jpg" alt="Police Dog">
 One might also add the height and width description to their image to manipulate it's size and how its hould look as an output by adding the width and height properties.
 ```
-Responsive Images:
-
-
-
+Responsive Images: Refers to web pages being able to resize uploaded immages to the web to view the desired version of the image with the least space possibly taken, while delivering the best image quality. The aim oif having responsive images is to send the smallest image file possible and still deliver beautiful images that may appear quite large.
