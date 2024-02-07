@@ -2,7 +2,7 @@
 ## Unit 1: Introduction to HTML & CSS
 What is HTML?
 - Hypertext Mark-up Language, also known as a declarative language, is used as a standard mark-up language designed to create web pages used by the browser to manipulate text, images, and other content, in order to display it in the required format. It serves as a channel for different types of content like words, images, videos, audio, forms, and interactive experiences. It consists of a siries of elements that describe the structure of a web page and tells the browser how to display the content. HTML is a combination of hypertext, which defines the link between web pages, and the markup language that is used to define the text document within the tag that designs the structure of web pages.
-
+  
 What is CSS?
 - Cascading style sheets acts as the stylist of web pages, meaning that it is responsible for how the we page looks in terms of the text fonts, colors, sizes, and has the capabilities of adding special animations and other ways of interactions in order to give the page visitor a satisfying web experience and interaction. CSS comes with computer system tricks and that makesit both fragile and powerful at the same time
 
@@ -27,7 +27,8 @@ To add on,  These tags are used to devide intended information(elements) in your
 <pre> and <code>       - elements are often combined to display a code block with proper indentation
 <sub>                  - Defines subscript text, used when you want to lower a certain alphabet or word or section with in a text i.e H2O
 <sup>                  - Defines superscripts text, used when you want certain texts or certain parts of a text to appear slightly above the normal text line. i.e 5th of                            October
-<span></span>          - Add mark-up to a text within a text/paragraph. I.E if you want to change the color of a specific word inside a text, toy would have to enwrap inside of the span tag and add the desired styling properties inside the open span tag.  
+<span></span>          - Add mark-up to a text within a text/paragraph. I.E if you want to change the color of a specific word inside a text, you would have to enwrap that                          word inside of the span tag and add the desired styling properties inside the open span tag.
+<div></div>            - Used when we want to devide a page by sections and, maybe, add features or styles to a certain section of your page. This element can be applied                            to devide paragraphs by sections so that you can be able to do change to a certain paragraph with in a page.
 ```
 <p>Practical Examples of Subscripts and Superscripts:</p>
 <p>H<sub>2</sub>O</p>
