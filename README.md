@@ -156,5 +156,6 @@ An example of uplaoding an audion file to your page for each audio file:
 <audio controls>
 <source src=""
 type ="">
-<source >
+<source src=""
+type ="">
 ```
