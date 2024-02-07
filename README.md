@@ -26,7 +26,8 @@ To add on,  These tags are used to devide intended information(elements) in your
 <br>                   - Is used for indicating to the system that this is a line break.
 <pre> and <code>       - elements are often combined to display a code block with proper indentation
 <sub>                  - Defines subscript text, used when you want to lower a certain alphabet or word or section with in a text i.e H2O
-<sup>                  - Defines superscripts text, used when you want certain texts or certain parts of a text to appear slightly above the normal text line. i.e 5th of October
+<sup>                  - Defines superscripts text, used when you want certain texts or certain parts of a text to appear slightly above the normal text line. i.e 5th of                            October
+<span></span>          - Add mark-up to a text within a text/paragraph. I.E if you want to change the color of a specific word inside a text, toy would have to enwrap inside of the span tag and add the desired styling properties inside the open span tag.  
 ```
 <p>Practical Examples of Subscripts and Superscripts:</p>
 <p>H<sub>2</sub>O</p>
