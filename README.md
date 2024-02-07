@@ -152,10 +152,13 @@ Responsive Images: Refers to web pages being able to resize uploaded immages to 
 ## Unit 6: Working With Media
 - Audio: The audio element is different from the image tag because it has both the opening and the closing tag, which promotes more power to the element. Just like the image tag, we use the "src" attribute to source out the audio and where it is placed on the pc or server. Media player controls like the "volume" and "play" button can be added or created using Javascript and HTML media element API. The reason for having an opening and closing tag for the audio element is because "src" can be used to specify multiple audio file.
 ```
-An example of uplaoding an audion file to your page for each audio file:
+An example of uplaoding an audio file to your page for each audio file:
 <audio controls>
-<source src=""
-type ="">
-<source src=""
-type ="">
+<source
+        src="Recording1.mp3"
+        type ="audio/mpeg">
+<source
+        src="Recording2.mp3"
+        type ="audio/mpeg">
+</audio>
 ```
