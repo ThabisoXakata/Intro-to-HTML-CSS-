@@ -162,4 +162,5 @@ An example of uplaoding an audio file to your page for each audio file:
         type ="audio/mpeg">
 </audio>
 ```
-- Video: Just like the audio insertion feature, HTML has one for uploading, viewing and downloading video files on web pages. To source and display a video in HTML, we use the source attribute to specify the video we want to display. To add media player controlos to your video, we simply need to type in " <video controls src="...video.mp4"."  
+- Video: Just like the audio insertion feature, HTML has one for uploading, viewing and downloading video files on web pages. To source and display a video in HTML, we use the source attribute to specify the video we want to display. To add media player controlos to your video, we simply need to type in " <video controls src="...video.mp4"."
+-  
