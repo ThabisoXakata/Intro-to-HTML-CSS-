@@ -163,4 +163,23 @@ An example of uplaoding an audio file to your page for each audio file:
 </audio>
 ```
 - Video: Just like the audio insertion feature, HTML has one for uploading, viewing and downloading video files on web pages. To source and display a video in HTML, we use the source attribute to specify the video we want to display. To add media player controlos to your video, we simply need to type in " <video controls src="...video.mp4"."
--  
+Captions and Subtitles: We now know that we can add sound and video to any web page we create, but not every one can hear what is being hear on the audio, that could be caused by disabilities and impairements, language barriers, accents and so many other factors. In order to combat such issues, the implimentation of captions and subtitles comes into place. With the "track" element, we are able to insert captions and subtitle to video and audio files on the web.
+```
+An example of how you would add captions/subtitles to a video on the web:
+<source src=”documents/videos/video1.mp4”
+Type=”video/mp4”>
+<source src=”https://www.youtube.com/watch?v=klxJBAAOJ3c”
+Type=”video/webm”>
+
+<track src=” documents/videos/video1.mp4”
+	Kind=”captions”
+	Label=”english”
+	Srclang=”en”
+Default>
+
+<track src=” https://www.youtube.com/watch?v=klxJBAAOJ3c”
+	Kind=”subtitles”
+	Label=”Portuguese”
+	Srclang=”en”>
+
+```
