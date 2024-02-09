@@ -183,3 +183,19 @@ Default>
 	Srclang=”en”>
 
 ```
+<source src=”documents/videos/video1.mp4”
+Type=”video/mp4”>
+<source src=”https://www.youtube.com/watch?v=klxJBAAOJ3c”
+Type=”video/webm”>
+
+<track src=” documents/videos/video1.mp4”
+	Kind=”captions”
+	Label=”english”
+	Srclang=”en”
+Default>
+
+<track src=” https://www.youtube.com/watch?v=klxJBAAOJ3c”
+	Kind=”subtitles”
+	Label=”Portuguese”
+	Srclang=”en”>
+
