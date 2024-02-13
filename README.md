@@ -200,13 +200,13 @@ HTML Page: All the elements, attributes, roles, and tools used to mark up conten
 ```
 This is what a web page looklike in HTML code
 <!DOCTYPE html>                                                            <!--The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, 									    PHP, Javascript etc, so that it can be able to determine which elements are going to be valid. This the first line required for every HTML code- 									   >
-<html lang="en">						 	   <!-- Defines the language the computer is going use for that particula HTML page, quote, or paragraph.-->
-<head>
-    <meta charset="UTF-8">
+<html lang="en">						 	   <!-- Defines the language the computer is going use for that particula HTML page, quote, or paragraph -->
+<head>									   <!-- Inside the head of a webpage is you put important information that the browser needs to know about the website -->
+    <meta charset="UTF-8">						   <!-- Defines the character set that is going to be used on this HTML web page.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Page Name</title>
+    <title>Web Page Name</title>					   <!-- It is the name that appears under top sites when a new browser is opened-->
 </head>
-<body>
+<body>									   <!-- This where the full structure of your HTML document goes.
     
 </body>
 </html>
