@@ -220,11 +220,11 @@ ________________________________________________________________________________
 <head>
 <script src="javascriptfile1.js"></script>				  <!--Used to instruct the browser to load a JavaScript file-->
 </head>
-<main></main>			- Informs the browser where the main content is located on the web page
-<Header>			- Marks the header arear of the page
-<footer>			- Marks the footer arear on your web page and signifies that there are extra things to convey, regardless of its position on the page.
-<section>			- Used to mark sections of content, i.e when writing a 2000 word online newspaper article, you would need to section your paragraphs up, especially if it would have subheadings.
-<aside>				- Used for content that is to be place on a certain side of your web page, like a sidebar information type of design is achieved using the aside element.
+<main></main>			<!--Informs the browser where the main content is located on the web page-->
+<Header>			<!--Marks the header arear of the page-->
+<footer>			<!--Marks the footer arear on your web page and signifies that there are extra things to convey, regardless of its position on the page.-->
+<section>			<!--Used to mark sections of content, i.e when writing a 2000 word online newspaper article, you would need to section your paragraphs up, especially if it would have subheadings.-->
+<aside>				<!--Used for content that is to be place on a certain side of your web page, like a sidebar information type of design is achieved using the aside element-->
 ```
 This covers most of the basics of creating web pages using just HTML code. To get a sense of how to assemble web pages using many nested elements to structure the web page to your liking. In order for one to fully grasp the syntax and how to structure web pages, we need to travel around the web looking for sites similar to the one you may want to create and making use of web developer tools to see how other developers used html elements on their web pages.
 
