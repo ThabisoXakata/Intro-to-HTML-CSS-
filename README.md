@@ -248,3 +248,17 @@ An example of a form in HTML:
 	</form>
 </section>
 ```
+<section class="Form-A">
+	<h2>Form A</h2>
+	<form>
+		<label>Name</label>
+		<input>
+		<label>Surname</label>
+		<input>
+		<label>Age</label>
+		<input>
+		<label>Gender</label>
+		<input>
+		<button>Login</button>
+	</form>
+</section>
