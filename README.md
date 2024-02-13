@@ -187,5 +187,13 @@ Embedding Media via Iframes: Embedding media refers to taking content from anoth
 ## Unit 7: HTML Content Identification
 Language Support - The internet is used by the entire world meaning that people are gonna understand things differently... HTML has a feature that allows for a creation of web pages that cater to people from different demographic and geographical backgrounds. The language feature is inserted at the begining of your HTML code. i.e "html lang="en-US">"
 HTML language attribute is not ony limited to ENGLISH (lang="en-US"/"en-GB") AND ESPANOL (lang="es"), infact there are many other language HTML documents ca be written in. Other languages like Arabic are available to use even though the writing direction may differ as many languages have a left-to-right "ltr" direction. Now, in order for us to be able to to that, we have to specify which direction is the text going to go. 
-Here are a few language examples: html lang="en-US"(English from United States), html lang="en-GB"(English from Great Britain)
-
+Here are a few language examples: 
+html lang="en-US"(English from United States)
+html lang= "en-GB" dir="ltr"(English from Great Britain, text direction goes from left to right)
+html lang="ar" dir="rtl"(arabic, text direction goes from right to left)
+Different languages have different character sets and symbols. To define what character set to use, we use the meta attribute along with the unicode UTF8 to gain access to 137000 characters aiming to encompass all known languages to men kind. To inform the browser what character sets you are going to use, you simply need to type (meta charset="UTF-8").
+HTML Generic Elements, Div and Span:
+Div : Are widely used to create/devide sections, sidebars, and everything in between. Simply put, the div element is a block level element.
+Span: Is an inline element that is used to make changes or enhancements to a certain part of a text or a certain text/word in a sentence.
+## Unit 7: HTML Integration
+HTML Page: All the elements, attributes, roles, and tools used to mark up content put together in a meaningful way make up an HTML page. To visit a web page, one needs to open a web browser and type in the page URL, then press enter for it to take you to that particular site, or you could just visit it by clicking a link/hyperlink linked to that particular website. In the earlier days of the internet, everything needed to display a webpage was contained in a single HTML file, along with all the images, audio and videos needed for that website's content. To make internet webpages visually impressive, things have gotten complex with the needed addition of Cascading Style Sheets and CSS files, that are solely used to add and store visual styles and visual features, and JavaScript is in separate JavaScript files that are used to add interactiveness within your web page.
