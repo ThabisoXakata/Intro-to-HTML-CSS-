@@ -33,12 +33,12 @@ To add on,  These tags are used to devide intended information(elements) in your
   There are 3 types of lists used in HTML, namely unordered, ordered, and definition lists                                                                                                                               To define the entire list and specify its type, we use the "ul" element for an unordered list, "ol" for an ordered list, and "dt" for definition term                                                                  Each item in the list is enclosed in an "li" element.
 ```
 An example of how lists are applied to HTML...
-<ul></ul>                 -- unordered list: Used when a list has no particular order to follow.
-<ol></ol>                 -- ordered list: Used when a list has a specific order or sequence, usually numerical.
-<li><li>                  --  Each item in the list need to be enwrapped inside the "li" element.
-<dl>                      -- definition list: Used when we want to create a list that resembles a key-value pair where instead of just items, we have terms and their corresponding descriptions. <dl> enwraps boththe <dt> and the <dd> inside.
-<dt>                      -- definition term: Defines a single term, which is described with a description detail <dd>. The <dl> tag is used to create a list of terms with their respective descriptions.
-<dd>                      -- definition description.
+<ul></ul>                 <!-- unordered list: Used when a list has no particular order to follow.-->
+<ol></ol>                 <!-- ordered list: Used when a list has a specific order or sequence, usually numerical.
+<li><li>                  <!--  Each item in the list need to be enwrapped inside the "li" element.
+<dl>                      <!-- definition list: Used when we want to create a list that resembles a key-value pair where instead of just items, we have terms and their corresponding descriptions. <dl> enwraps boththe <dt> and the <dd> inside.-->
+<dt>                      <!-- definition term: Defines a single term, which is described with a description detail <dd>. The <dl> tag is used to create a list of terms with their respective descriptions.-->
+<dd>                      <!-- definition description.-->
 ```
 <p>An example of a unordered and ordered lists:</p>
 
