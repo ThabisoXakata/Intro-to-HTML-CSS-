@@ -244,12 +244,11 @@ An example of a form in HTML:
 		<input>
 		<label>Gender</label>
 		<input>
-		<button>Login</button>
+		<button>Submit</button>
 	</form>
 </section>
-```
-<section class="Form-A">
-	<h2>Form A</h2>
+<section class="Form-B">
+	<h2>Form B</h2>
 	<form>
 		<label>Name</label>
 		<input>
@@ -259,6 +258,8 @@ An example of a form in HTML:
 		<input>
 		<label>Gender</label>
 		<input>
-		<button>Login</button>
+		<button>Submit</button>
 	</form>
 </section>
+```
+
