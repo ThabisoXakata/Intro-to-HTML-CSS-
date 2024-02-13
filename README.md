@@ -185,6 +185,7 @@ Default>
 ```
 Embedding Media via Iframes: Embedding media refers to taking content from another site and simlply placing it on to another site's page. There is a large variety of content that can be embedded on a web page like Maps, code demo and many other things..
 ## Unit 7: HTML Content Identification
-Language Support - The internet is used by the entire world meaning that people are gonna understand things differently... HTML has a feature that allows for a creation of web pages that cater to people from different demographic and geographical backgrounds. the language feature is inserted at the begining of your HTML code. i.e "html lang="en-US">"
- 
+Language Support - The internet is used by the entire world meaning that people are gonna understand things differently... HTML has a feature that allows for a creation of web pages that cater to people from different demographic and geographical backgrounds. The language feature is inserted at the begining of your HTML code. i.e "html lang="en-US">"
+HTML language attribute is not ony limited to ENGLISH (lang="en-US"/"en-GB") AND ESPANOL (lang="es"), infact there are many other language HTML documents ca be written in. Other languages like Arabic are available to use even though the writing direction may differ as many languages have a left-to-right "ltr" direction. Now, in order for us to be able to to that, we have to specify which direction is the text going to go. 
+Here are a few language examples: html lang="en-US"(English from United States), html lang="en-GB"(English from Great Britain)
 
