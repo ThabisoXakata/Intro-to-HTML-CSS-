@@ -143,6 +143,7 @@ i.e <img src="https://www.tiptongov.com/egov/images/1662419877_72085_o.jpg" alt=
 One might also add the height and width description to their image to manipulate it's size and how its hould look as an output by adding the width and height properties.
 ```
 Responsive Images: Refers to web pages being able to resize uploaded immages to the web to view the desired version of the image with the least space possibly taken, while delivering the best image quality. The aim oif having responsive images is to send the smallest image file possible and still deliver beautiful images that may appear quite large.
+
 ## Unit 6: Working With Media
 - Audio: The audio element is different from the image tag because it has both the opening and the closing tag, which promotes more power to the element. Just like the image tag, we use the "src" attribute to source out the audio and where it is placed on the pc or server. Media player controls like the "volume" and "play" button can be added or created using Javascript and HTML media element API. The reason for having an opening and closing tag for the audio element is because "src" can be used to specify multiple audio file.
 ```
@@ -219,5 +220,13 @@ ________________________________________________________________________________
 <head>
 <script src="javascriptfile1.js"></script>				  <!--Used to instruct the browser to load a JavaScript file-->
 </head>
-
+<main></main>			- Informs the browser where the main content is located on the web page
+<Header>			- Marks the header arear of the page
+<footer>			- Marks the footer arear on your web page and signifies that there are extra things to convey, regardless of its position on the page.
+<section>			- Used to mark sections of content, i.e when writing a 2000 word online newspaper article, you would need to section your paragraphs up, especially if it would have subheadings.
+<aside>				- Used for content that is to be place on a certain side of your web page, like a sidebar information type of design is achieved using the aside element.
 ```
+This covers most of the basics of creating web pages using just HTML code. To get a sense of how to assemble web pages using many nested elements to structure the web page to your liking. In order for one to fully grasp the syntax and how to structure web pages, we need to travel around the web looking for sites similar to the one you may want to create and making use of web developer tools to see how other developers used html elements on their web pages.
+
+## Unit 9: Working with Forms and Interactive Elements
+Form Fundamentals		- Forms have always played a very important role in web, as they have been used in many different tasks like logging in to a website, leaving a comments on websites, conducting searhes on the net, making payments online i.e Paypal is a form based type of website. To create forms, we use the "form" element to inform the browser to expect a form in a certain section of a code. If a form has 4 fields designated for a name, surname, age, and gender, we would be able to turn those field names to labels using the label element. An "input" element is used to input their name, surname, age and gender on those designated fields, note that the input element does not have a closing tag.
