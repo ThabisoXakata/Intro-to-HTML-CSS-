@@ -10,15 +10,10 @@ What is CSS?
 - HTML Syntax: uses tags that are enclosed in less and greater than symbols "<>" to define elements that are like content containing packages. Many of these elements require both the opening and closing tags to function properly and provide the desired results.
 ```
 To add on,  These tags are used to devide intended information(elements) in your program and let the computer know that these are seperate entities.
-<!DOCTYPE html>        - The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, PHP, Javascript etc, so that it can be able to 
-                         determine which elements are going to be valid. This the first line required for every HTML code.
+<!DOCTYPE html>        - The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, PHP, Javascript etc, so that it can be able to determine which elements are going to be valid. This the first line required for every HTML code.
 <title></title>        - Defines the title for the documents
 <p></p>                - Refers to the new paragraph's opening and closing tag
-<h1></h1> to <h6></h6> - Refers to Headlines and their sizes in respective to their significance and aense of urgence or authority. Headlines play a vital role in making the people understand the structure of the 
-                         web 
-                         page they are on, as headlines can be  the window top the actual content of the page. There are 6 different sizes of headlines in respective to their levels of authority, and they all have 
-                         distinctive visual effects on the web page, with <h1> having the greatest headline authority while <h6> has the least and gets the least attention compared the other headlines. The h1 
-                         serves as the main title, while the h2 acts as a subtitle for the content.
+<h1></h1> to <h6></h6> - Refers to Headlines and their sizes in respective to their significance and aense of urgence or authority. Headlines play a vital role in making the people understand the structure of the web page they are on, as headlines can be  the window top the actual content of the page. There are 6 different sizes of headlines in respective to their levels of authority, and they all have distinctive visual effects on the web page, with <h1> having the greatest headline authority while <h6> has the least and gets the least attention compared the other headlines. The h1 serves as the main title, while the h2 acts as a subtitle for the content.
 <i></i>                - Used to apply visual italics to a text on a web page.
 <em></em>              - Refers to emphasized text within a web page, appears the same way as italics but carry a different meaning to the screen reader and the human reading it.
 <strong></strong>      - Used to show importance, seriousness, or urgency of a text on a web page. 
@@ -41,7 +36,7 @@ An example of how lists are applied to HTML...
 <ul></ul>                 -- unordered list: Used when a list has no particular order to follow.
 <ol></ol>                 -- ordered list: Used when a list has a specific order or sequence, usually numerical.
 <li><li>                  --  Each item in the list need to be enwrapped inside the "li" element.
-<dl>                      -- definition list: Used when we want to create a list that resembles a key-value pair where instead of just items, we have terms and their corresponding descriptions. <dl> enwraps both                                 the <dt> and the <dd> inside.
+<dl>                      -- definition list: Used when we want to create a list that resembles a key-value pair where instead of just items, we have terms and their corresponding descriptions. <dl> enwraps boththe <dt> and the <dd> inside.
 <dt>                      -- definition term: Defines a single term, which is described with a description detail <dd>. The <dl> tag is used to create a list of terms with their respective descriptions.
 <dd>                      -- definition description.
 ```
@@ -75,7 +70,7 @@ HTML Quotes
 Quotes are used to attribute certain work or text within the web page to an intended entity. We attribute paragraphs to entities by using the "cite" element enwrapped by a "blockquote". To add on, within a blockquote, one can include any other element they may want to use i.e "h1" "ul" "ol" etc. There are other quoting methods that do not require blockquotes, they are just typed in and the end-result appears as curly quote, meaning that the text will appear with quotation marks in its read-only form.
 ```
 <q></q>                    -- Can for short quotations that don't require paragraph breaks, will show text with quotation marks.
-<blockquote></blockquote>  -- Used distinguish what to quote with in certain text and or to attribute to a particular entity/name or word/s. It is also used to make long quotes look in a certain "special" manner,                                 one that does not make use quotation marks but attributes certain text within that web page to a particular entity.
+<blockquote></blockquote>  -- Used distinguish what to quote with in certain text and or to attribute to a particular entity/name or word/s. It is also used to make long quotes look in a certain "special" manner, one that does not make use quotation marks but attributes certain text within that web page to a particular entity.
 <cite></cite>              -- Attributes patragraph texts to specific entities. When used inside a blockquote, attributes that whole text to that specific entity .
 ```
 ## Unit 3: Troubleshooting and Debugging.
@@ -87,8 +82,7 @@ Attributes in HTML add power to any element. There are many element attributes i
 - Class: The HTML class attribute is used to specify a class for an HTML element that allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class. Multiple HTML elements can share the same class.  
 ```
 Other examples of attributes would be:
-<a>    - The anchor tag is used to tag a hyperlink, and is always followed be the the href attribute specifies the URL of the page the link goes to: i.e <p>An article By <cite><b> &copy; <a       
-         href="https://www.facebook.com/maccheez"> Thabiso Xakata</a></b></cite></p>, would take you to www.facebook.com/maccheez homepage.
+<a>    - The anchor tag is used to tag a hyperlink, and is always followed be the the href attribute specifies the URL of the page the link goes to: i.e <p>An article By <cite><b> &copy; <a href="https://www.facebook.com/maccheez"> Thabiso Xakata</a></b></cite></p>, would take you to www.facebook.com/maccheez homepage.
 <lang> - allows developers to specify the language of the content using a short language code.
 <dir>  - Specifies the direction in which the text flows using "ltr" Left-To-Right Scripts and "rtl" Right-To-Left Scripts.
 ```
@@ -199,7 +193,7 @@ HTML Integration
 HTML Page: All the elements, attributes, roles, and tools used to mark up content put together in a meaningful way make up an HTML page. To visit a web page, one needs to open a web browser and type in the page URL, then press enter for it to take you to that particular site, or you could just visit it by clicking a link/hyperlink linked to that particular website. In the earlier days of the internet, everything needed to display a webpage was contained in a single HTML file, along with all the images, audio and videos needed for that website's content. To make internet webpages visually impressive, things have gotten complex with the needed addition of Cascading Style Sheets and CSS files, that are solely used to add and store visual styles and visual features, and JavaScript is in separate JavaScript files that are used to add interactiveness within your web page.
 ```
 This is what a web page looklike in HTML code
-<!DOCTYPE html>                                                            <!--The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, 									    PHP, Javascript etc, so that it can be able to determine which elements are going to be valid. This the first line required for every HTML code- 									   >
+<!DOCTYPE html>                                                            <!--The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, PHP, Javascript etc, so that it can be able to determine which elements are going to be valid. This the first line required for every HTML code-->
 <html lang="en">						 	   <!-- Defines the language the computer is going use for that particula HTML page, quote, or paragraph -->
 <head>									   <!-- Inside the head of a webpage is you put important information that the browser needs to know about the website -->
     <meta charset="UTF-8">						   <!-- Defines the character set that is going to be used on this HTML web page.
@@ -213,7 +207,7 @@ This is what a web page looklike in HTML code
 </html>
 ```
 meta attribute.		- The <meta> tag defines metadata(information) about an HTML document. Amongst many things we can use the meta tag on in an HTML document, one common use is to inform the browser that the layout has been adjusted to fit small screens, therefore making it a responsive website.
-Link			- The link element is used to connect various assets that should be loaded on to you html docoment, such as CSS files, fonts, and faicons. The <link> tag is most often used to link to external 			  style sheets or to add a favicon to your website.
+Link			- The link element is used to connect various assets that should be loaded on to you html docoment, such as CSS files, fonts, and faicons. The <link> tag is most often used to link to external style sheets or to add a favicon to your website.
 href			- the href attribute is employed to specify the URL/source for the asset
 rel			- Informs the browser about the type of asset being utilized in this programme.
 script src=""		- Used to load a javascript file on to your html document.
