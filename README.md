@@ -210,10 +210,14 @@ meta attribute.		- The <meta> tag defines metadata(information) about an HTML do
 Link			- The link element is used to connect various assets that should be loaded on to you html docoment, such as CSS files, fonts, and faicons. The <link> tag is most often used to link to external style sheets or to add a favicon to your website.
 href			- the href attribute is employed to specify the URL/source for the asset
 rel			- Informs the browser about the type of asset being utilized in this programme.
-script src=""		- Used to load a javascript file on to your html document.
+script 			- Used to load a javascript file on to your html document.
 ```
 <head>
   <link href="styles.css" rel="stylesheet">				  <!--The <link> tag defines the relationship between the current document and an external resource.-->
+</head>
+__________________________________________________________________________________________________________________________________________________________________________________
+<head>
+<script src="javascriptfile1.js"></script>				  <!--Used to instruct the browser to load a JavaScript file-->
 </head>
 
 ```
