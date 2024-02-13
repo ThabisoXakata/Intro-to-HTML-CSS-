@@ -199,12 +199,12 @@ HTML Integration
 HTML Page: All the elements, attributes, roles, and tools used to mark up content put together in a meaningful way make up an HTML page. To visit a web page, one needs to open a web browser and type in the page URL, then press enter for it to take you to that particular site, or you could just visit it by clicking a link/hyperlink linked to that particular website. In the earlier days of the internet, everything needed to display a webpage was contained in a single HTML file, along with all the images, audio and videos needed for that website's content. To make internet webpages visually impressive, things have gotten complex with the needed addition of Cascading Style Sheets and CSS files, that are solely used to add and store visual styles and visual features, and JavaScript is in separate JavaScript files that are used to add interactiveness within your web page.
 ```
 This is what a web page looklike in HTML code
-<!DOCTYPE html>                                                            <!--The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, 									    PHP, Javascript etc, so that it can be able to determine which elements are going to be valid. This the first line required for every HTML code-->
-<html lang="en">
+<!DOCTYPE html>                                                            <!--The !DOCTYPE declaration is not a tag/element, but a declaration to the computer that the following document type is going to be HTML, XHTML, 									    PHP, Javascript etc, so that it can be able to determine which elements are going to be valid. This the first line required for every HTML code- 									   >
+<html lang="en">						 	   <!-- Defines the language the computer is going use for that particula HTML page, quote, or paragraph.-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Page Name</title>
 </head>
 <body>
     
