@@ -209,5 +209,17 @@ This is what a web page looklike in HTML code
 <body>									   <!-- This where the full structure of your HTML document goes.
     
 </body>
+									   <!-- The footer navigation bar, if there is one, goes here-->
 </html>
+```
+meta attribute.		- The <meta> tag defines metadata(information) about an HTML document. Amongst many things we can use the meta tag on in an HTML document, one common use is to inform the browser that the layout has been adjusted to fit small screens, therefore making it a responsive website.
+Link			- The link element is used to connect various assets that should be loaded on to you html docoment, such as CSS files, fonts, and faicons. The <link> tag is most often used to link to external 			  style sheets or to add a favicon to your website.
+href			- the href attribute is employed to specify the URL/source for the asset
+rel			- Informs the browser about the type of asset being utilized in this programme.
+script src=""		- Used to load a javascript file on to your html document.
+```
+<head>
+  <link href="styles.css" rel="stylesheet">				  <!--The <link> tag defines the relationship between the current document and an external resource.-->
+</head>
+
 ```
