@@ -279,7 +279,7 @@ For the above form code, any text can be placed inside the labels, even on the "
 
 	<div>
 		<label for="textarea">textarea</label>
-		<textarea id="textarea" type="text" cols="30" rows="15"></textarea>	<!--Field designated for a complaints, comments and compliments Text area-->
+		<textarea id="textarea" type="text" cols="30" rows="15"></textarea>	<!--Field designated for a complaints, comments and compliments Text area, "cols" 											stands for number of columns, and rows for the number of rows. -->
 		
 	</div>
 
