@@ -253,15 +253,37 @@ For the above form code, any text can be placed inside the labels, even on the "
 <form action="index.html" method="get">
 	<label for="name"> Name</label>
 		<input name="name" id="name" type="text">
+
 	<label for="surname">Surname</label>
 		<input name="surname" id="surname" type="text">
+
 	<label for="Age">Age</label>
 		<input name="age" id="age" type="number"> 
+
 	<label for="Gender">Gender</label>
 		<input name="gender" id="gender" type="text">
+
 	<label for="email">email</label>
-		<input name="email" id="email" type="email" required placeholder="someone@example.com">
+		<input name="email" id="email" type="email" required 				placeholder="someone@example.com">
+
+	<label for="cellphone">phone</label>
+		<input name="cellphone" id="cellphone" type="tel">
+
+	<label for="password">password</label>
+		<input name="password" id="password" type="password">
+
+	<label for="search">search</label>
+		<input name="search" id="search" type="search"
+		placeholder="Search">
+
+	<div>
+		<label for="cellphone">phone</label>
+		<input name="cellphone" id="cellphone" type="tel">
+	</div>
+
 	<button type="submit">login</button>
+
 </form>
 ```
+Other Form Element Types: Simply refers to the features that allows us to style our form to appeal more.
 
