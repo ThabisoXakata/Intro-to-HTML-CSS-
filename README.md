@@ -249,6 +249,7 @@ An example of a form in HTML:
 </section>
 ```
 For the above form code, any text can be placed inside the labels, even on the "age" field, mainly because we did not specify the type of input we are going to collect. Adding the "type" attribute to define the type of data expected in those fields.
+Other Form Element Types: Simply refers to the features that allows us to style our form to appeal more.
 ```
 <form action="index.html" method="get">
 	<label for="name"> Name</label>
@@ -287,5 +288,5 @@ For the above form code, any text can be placed inside the labels, even on the "
 
 </form>
 ```
-Other Form Element Types: Simply refers to the features that allows us to style our form to appeal more.
+
 
