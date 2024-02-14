@@ -261,6 +261,7 @@ For the above form code, any text can be placed inside the labels, even on the "
 		<input name="gender" id="gender" type="text">
 	<label for="email">email</label>
 		<input name="email" id="email" type="email" required placeholder="someone@example.com">
-	<button type="submit">login</button> 
+	<button type="submit">login</button>
+</form>
 ```
 
