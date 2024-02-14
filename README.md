@@ -247,19 +247,15 @@ An example of a form in HTML:
 		<button>Submit</button>
 	</form>
 </section>
-<section class="Form-B">
-	<h2>Form B</h2>
-	<form>
-		<label>Name</label>
-		<input>
-		<label>Surname</label>
-		<input>
-		<label>Age</label>
-		<input>
-		<label>Gender</label>
-		<input>
-		<button>Submit</button>
-	</form>
-</section>
 ```
-
+For the above form code, any text can be placed inside the labels, even on the "age" field, mainly because we did not specify the type of input we are going to collect. Adding the "type" attribute to define the type of data expected in those fields.
+```
+<form action="index.html" method="get">
+	<label for="name"> Name</label>
+		<input name="name" id="name" type="text">
+	<label for="surname">Surname</label>
+		<input name="nsurname" id="surname" type="text">
+	<label for="Age"></label>
+		<input name="name" id="name" type="number"> 
+	 
+```
