@@ -258,15 +258,9 @@ For the above form code, any text can be placed inside the labels, even on the "
 	<label for="Age">Age</label>
 		<input name="age" id="age" type="number"> 
 	<label for="Gender">Gender</label>
-		<input name="gender" id="gender" type="text"> 
-```
-<form action="index.html" method="get">
-	<label for="name"> Name</label>
-		<input name="name" id="name" type="text">
-	<label for="surname">Surname</label>
-		<input name="surname" id="surname" type="text">
-	<label for="Age">Age</label>
-		<input name="age" id="age" type="number"> 
-	<label for="Gender">Gender</label>
 		<input name="gender" id="gender" type="text">
-</form>
+	<label for="email">email</label>
+		<input name="email" id="email" type="email" required placeholder="someone@example.com">
+	<button type="submit">login</button> 
+```
+
