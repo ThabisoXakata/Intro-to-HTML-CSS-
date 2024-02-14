@@ -252,33 +252,35 @@ For the above form code, any text can be placed inside the labels, even on the "
 ```
 <form action="index.html" method="get">
 	<label for="name"> Name</label>
-		<input name="name" id="name" type="text">
+		<input name="name" id="name" type="text">				
 
 	<label for="surname">Surname</label>
 		<input name="surname" id="surname" type="text">
 
 	<label for="Age">Age</label>
-		<input name="age" id="age" type="number"> 
+		<input name="age" id="age" type="number"> 				<!--Field designated for age/number of years-->
 
 	<label for="Gender">Gender</label>
-		<input name="gender" id="gender" type="text">
+		<input name="gender" id="gender" type="text">				<!--Field designated for -->
 
 	<label for="email">email</label>
-		<input name="email" id="email" type="email" required 				placeholder="someone@example.com">
+		<input name="email" id="email" type="email"
+		required placeholder="someone@example.com">				<!--Field designated for the email address-->
 
 	<label for="cellphone">phone</label>
-		<input name="cellphone" id="cellphone" type="tel">
+		<input name="cellphone" id="cellphone" type="tel">			<!--Field designated for the cellphone number-->
 
 	<label for="password">password</label>
-		<input name="password" id="password" type="password">
+		<input name="password" id="password" type="password">			<!--Field designated for a Password-->
 
 	<label for="search">search</label>
-		<input name="search" id="search" type="search"
+		<input name="search" id="search" type="search"				<!--Field designated for a search phrase, or text to search-->
 		placeholder="Search">
 
 	<div>
-		<label for="cellphone">phone</label>
-		<input name="cellphone" id="cellphone" type="tel">
+		<label for="textarea">textarea</label>
+		<textarea id="textarea" type="text" cols="30" rows="15"></textarea>	<!--Field designated for a complaints, comments and compliments Text area-->
+		
 	</div>
 
 	<button type="submit">login</button>
