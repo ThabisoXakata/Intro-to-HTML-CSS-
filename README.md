@@ -358,9 +358,9 @@ Selector
 Property 
 Value 
 ```
-p		<!--Refers to the selector-->
+p					<!--Refers to the selector-->
 {
-  color:	<!--Refers to the Property-->
-  red;		<!--Refers to the Value-->
+  color:				<!--Refers to the Property-->
+  red;					<!--Refers to the Value-->
 }
 ```
