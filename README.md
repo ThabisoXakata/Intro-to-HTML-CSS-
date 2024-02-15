@@ -311,3 +311,7 @@ For unit 11, we are supposed to create portfolio websites for ourselves to estab
 
 #CSS: Introduction to Cascading Style Sheets.
 Cascading Style Sheets contain all the visual styles for our webpahges, adding a visual appeal to your websites. To use CSS style on HTML codes, one has to connect them by using a link that woill allow them to work hand-in-hand. CSS has two parts: The selector and the declaration block.
+The selector: Used to specify the elements that you want to style in your code. There are 5 categories of CSS selectors:
+- Simple	- refers to elements based on "name, id, class" elements
+- combinator	- Selects elements based solely on a specific relationship between them
+- Attribute	- Selects elements based on a specific attribute or attribute value in our code.
