@@ -289,7 +289,7 @@ Other Form Element Types: Simply refers to the features that allows us to style 
 
 </form>
 ```
-## UNit 10: Organizing Tabular Information in HTML
+## Unit 10: Organizing Tabular Information in HTML
 HTML Tables	- Tables in  html are used when we have content that is plotted on a table format. To style them and add the actual boarders on our table sontents, we have to make use of CSS styles to arrange how the table is going to be displayed on the screen.
 ```
 This is an example of a table with 3 rows: one header and 2 datarows(fields)
@@ -305,3 +305,4 @@ This is an example of a table with 3 rows: one header and 2 datarows(fields)
   </tr>
 </table>						<!-- Table closing tag-->
 ```
+## Unit 11: For unit 11, we are supposed to create portfolio websites for ourselves to establish an online presence that is active and viewable. Our portfolio websites should include sections for our bio, skills, projects, and contact information. Lastly, incorporate images of your work, establish clickable links to your projects, and create interactive forms for visitor feedback.
