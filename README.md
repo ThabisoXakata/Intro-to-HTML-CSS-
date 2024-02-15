@@ -289,5 +289,19 @@ Other Form Element Types: Simply refers to the features that allows us to style 
 
 </form>
 ```
+## UNit 10: Organizing Tabular Information in HTML
+HTML Tables	- Tables in  html are used when we have content that is plotted on a table format. To style them and add the actual boarders on our table sontents, we have to make use of CSS styles to arrange how the table is going to be displayed on the screen.
+```
+This is an example of a table with 3 rows: one header and 2 datarows(fields)
 
-
+<table>							<!-- Table openning tag-->
+  <tr>							<!-- "tr" Table Row element defines the row on your table-->
+    <th>Weeks</th>					<!-- "th" Table Header element defines the header cell, displays header texts for each column, text is bold and centered by default-->
+    <th>Activities</th>
+  </tr>
+  <tr>
+    <td>Week 1</td>					<!-- "td" Table data defines the data cells that contain the data-->
+    <td>Introduction to HTML</td>
+  </tr>
+</table>						<!-- Table closing tag-->
+```
