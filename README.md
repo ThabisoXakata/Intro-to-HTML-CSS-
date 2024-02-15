@@ -313,5 +313,35 @@ For unit 11, we are supposed to create portfolio websites for ourselves to estab
 Cascading Style Sheets contain all the visual styles for our webpahges, adding a visual appeal to your websites. To use CSS style on HTML codes, one has to connect them by using a link that woill allow them to work hand-in-hand. CSS has two parts: The selector and the declaration block.
 The selector: Used to specify the elements that you want to style in your code. There are 5 categories of CSS selectors:
 - Simple	- refers to elements based on "name, id, class" elements
+  - id: Used to select a specific HTML element and make it uninque to a specific page.
+  - To select an element with a specific "id", a "#" symbol is inserted on the stylesheet, followed by the id of the element.
+```
+i.e To make changes to a specific paragraph that has been given the "id" name para1: <id="para1">
+
+ #para1 {
+  text-align: center;
+  color: gold;
+} 					<!--Specifies that all that is on para1 will be aligned towards the center, and the color of that text will be gold-->
+ ```
+  - Class: Selects elements with a specific class attribute
+  - Used to add changes to content that is inside a specific class
+```
+i.e To make changes to a specific paragraph that has been given the "id" name para1: <id="para1">
+
+ .playlist {
+  text-align: center;
+  color: gold;
+} 					<!--Specifies that all elements output in class="playlist" will be aligned towards the center, and the color of that text will be gold-->
+ ```
 - combinator	- Selects elements based solely on a specific relationship between them
 - Attribute	- Selects elements based on a specific attribute or attribute value in our code.
+- Universal	- Selects all HTML elements on a specific page
+```
+An example of how a universal selector works.
+* {
+  text-align: left;
+  color: green;			
+  background-color: Goldenrod;
+}					<!--Simply means that every text within that page will be aligned on the left, the color of the text is going to be green, and the 
+  background of this specific page will be gold-->
+```
