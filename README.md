@@ -332,7 +332,7 @@ i.e To make changes to a specific paragraph that has been given the "id" name pa
   text-align: center;
   color: gold;
 } 					<!--Specifies that all elements output in class="playlist" will be aligned towards the center, and the color of that text will be gold-->
- ```
+```
 - combinator	- Selects elements based solely on a specific relationship between them
 - Attribute	- Selects elements based on a specific attribute or attribute value in our code.
 - Universal	- Selects all HTML elements on a specific page
@@ -342,6 +342,13 @@ An example of how a universal selector works.
   text-align: left;
   color: green;			
   background-color: Goldenrod;
-}					<!--Simply means that every text within that page will be aligned on the left, the color of the text is going to be green, and the 
-  background of this specific page will be gold-->
+}					<!--Simply means that every text within that page will be aligned on the left, the color of the text is going to be green, and the background of this specific page will be goldenrod-->
+```
+We can add styles to HTML selectors such as "h1 to h6"and "p", you simply type "p" followed by calebraces and then you add the necessary styles you want to feature on your page. To add the same styles to multiple selectors is simple:
+```
+h1, h2, p {
+  text-align: center;
+  color: green;			
+  background-color: Goldenrod;
+}					<!--Simply means that every text within "h1", "h2", and "p" will be aligned on the left, the color of the text is going to be green, and the background of this specific page will be goldenrod-->
 ```
