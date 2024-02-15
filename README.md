@@ -350,5 +350,17 @@ h1, h2, p {
   text-align: center;
   color: green;			
   background-color: Goldenrod;
-}					<!--Simply means that every text within "h1", "h2", and "p" will be aligned on the left, the color of the text is going to be green, and the background of this specific page will be goldenrod-->
+}					<!--Simply means that every text within "h1", "h2", and "p" will be aligned on the left, the color of the text is going to be green, and the background of thi will be goldenrod-->
+```
+CSS style declaration consists of 3 parts: 
+
+Selector
+Property 
+Value 
+```
+p		<!--Refers to the selector-->
+{
+  color:	<!--Refers to the Property-->
+  red;		<!--Refers to the Value-->
+}
 ```
