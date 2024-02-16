@@ -310,8 +310,12 @@ This is an example of a table with 3 rows: one header and 2 datarows(fields)
 For unit 11, we are supposed to create portfolio websites for ourselves to establish an online presence that is active and viewable. Our portfolio websites should include sections for our bio, skills, projects, and contact information. Lastly, incorporate images of your work, establish clickable links to your projects, and create interactive forms for visitor feedback.
 
 #CSS: Introduction to Cascading Style Sheets.
+## Unit 1:
 Cascading Style Sheets contain all the visual styles for our webpahges, adding a visual appeal to your websites. To use CSS style on HTML codes, one has to connect them by using a link that woill allow them to work hand-in-hand. CSS has two parts: The selector and the declaration block.
+
+## Unit 2
 The selector: Used to specify the elements that you want to style in your code. There are 5 categories of CSS selectors:
+Declaration Block: Refers to the properties and values stored inside the calebraces of your CSS styling in your stylesheet. i.e {color: tomato; font-size: 10p; text-alignment:center}
 - Simple	- refers to elements based on "name, id, class" elements, always preceded by "." to apply styles on CSS.
   - id: Used to select a specific HTML element and make it uninque to a specific page.
   - To select an element with a specific "id", a "#" symbol is inserted on the stylesheet, followed by the id of the element.
