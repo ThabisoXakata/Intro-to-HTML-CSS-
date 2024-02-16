@@ -312,13 +312,14 @@ For unit 11, we are supposed to create portfolio websites for ourselves to estab
 #CSS: Introduction to Cascading Style Sheets.
 ## Unit 1:
 Cascading Style Sheets contain all the visual styles for our webpahges, adding a visual appeal to your websites. To use CSS style on HTML codes, one has to connect them by using a link that woill allow them to work hand-in-hand. CSS has two parts: The selector and the declaration block.
-
-## Unit 2
 The selector: Used to specify the elements that you want to style in your code. There are 5 categories of CSS selectors:
 Declaration Block: Refers to the properties and values stored inside the calebraces of your CSS styling in your stylesheet. i.e {color: tomato; font-size: 10p; text-alignment:center}
+
+## Unit 2
+Types of Selectors:
 - Simple	- refers to elements based on "name, id, class" elements, always preceded by "." to apply styles on CSS.
-  - id: Used to select a specific HTML element and make it uninque to a specific page.
-  - To select an element with a specific "id", a "#" symbol is inserted on the stylesheet, followed by the id of the element.
+  		- id: Used to select a specific HTML element and make it uninque to a specific page.
+  		- To select an element with a specific "id", a "#" symbol is inserted on the stylesheet, followed by the id of the element.
 ```
 i.e To make changes to a specific paragraph that has been given the "id" name para1: <id="para1">
 
@@ -327,8 +328,7 @@ i.e To make changes to a specific paragraph that has been given the "id" name pa
   color: gold;
 } 					<!--Specifies that all that is on para1 will be aligned towards the center, and the color of that text will be gold-->
  ```
-  - Class: Selects elements with a specific class attribute
-  - Used to add changes to content that is inside a specific class
+  - Class: Selects elements with a specific class attribute. Can be used to create a reference point for styling, meaning that we can add changes to content that is inside a specific class
 ```
 i.e To make changes to a specific paragraph that has been given the "id" name para1: <id="para1">
 
