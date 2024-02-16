@@ -306,7 +306,7 @@ This is an example of a table with 3 rows: one header and 2 datarows(fields)
   </tr>
 </table>						<!-- Table closing tag-->
 ```
-## Unit 11: 
+## Unit 11: Create a website Portfolio
 For unit 11, we are supposed to create portfolio websites for ourselves to establish an online presence that is active and viewable. Our portfolio websites should include sections for our bio, skills, projects, and contact information. Lastly, incorporate images of your work, establish clickable links to your projects, and create interactive forms for visitor feedback.
 
 #CSS: Introduction to Cascading Style Sheets.
@@ -368,6 +368,6 @@ p					<!--Refers to the selector-->
   red;					<!--Refers to the Value-->
 }
 ```
-## Unit 3:
-
-
+## Unit 3: Color Schemes
+Refers to the colors you might want to include on to your website. For colorways that we don't know the names of, we use a color pallete that can be easily found even on google, as the goal is to choose a color scheme or specific colors to enhance the visual of your website. If one struggle to find the perfect color scheme for their website, we have many resources we can choose from online, one example that we are currently exploring is the "Canva" online app.
+Canva: Canva is a user-friendly graphic designing online platform for people who do not have a graphic design background. Canva makes it easy to find color schemes by allowing us to upload images, and creates a color pallete for our page based on that specific image
