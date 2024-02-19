@@ -373,6 +373,7 @@ Refers to the colors you might want to include on to your website. For colorways
 Canva: Canva is a user-friendly graphic designing online platform for people who do not have a graphic design background. Canva makes it easy to find color schemes by allowing us to upload images, and creates a color pallete for our page based on that specific image.
 
 ### Margin and Padding
-Styling with CSS VS Styling inline
+Styling with CSS VS Styling Inline.
+In-line styling - Refers to adding visual enhancements to your code within HTML without linking a stylesheet from CSS. When used, it can only add style to the sides of the text(from left to right)
 Margin  - Refers to the area that starts after the section's border.
 Padding - Refers to the area just outside text's border
