@@ -370,4 +370,9 @@ p					<!--Refers to the selector-->
 ```
 ## Unit 3: Color Schemes
 Refers to the colors you might want to include on to your website. For colorways that we don't know the names of, we use a color pallete that can be easily found even on google, as the goal is to choose a color scheme or specific colors to enhance the visual of your website. If one struggle to find the perfect color scheme for their website, we have many resources we can choose from online, one example that we are currently exploring is the "Canva" online app.
-Canva: Canva is a user-friendly graphic designing online platform for people who do not have a graphic design background. Canva makes it easy to find color schemes by allowing us to upload images, and creates a color pallete for our page based on that specific image
+Canva: Canva is a user-friendly graphic designing online platform for people who do not have a graphic design background. Canva makes it easy to find color schemes by allowing us to upload images, and creates a color pallete for our page based on that specific image.
+
+### Margin and Padding
+Styling with CSS VS Styling inline
+Margin  - Refers to the area that starts after the section's border.
+Padding - Refers to the area just outside text's border
