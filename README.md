@@ -372,6 +372,16 @@ p					<!--Refers to the selector-->
 Refers to the colors you might want to include on to your website. For colorways that we don't know the names of, we use a color pallete that can be easily found even on google, as the goal is to choose a color scheme or specific colors to enhance the visual of your website. If one struggle to find the perfect color scheme for their website, we have many resources we can choose from online, one example that we are currently exploring is the "Canva" online app.
 Canva: Canva is a user-friendly graphic designing online platform for people who do not have a graphic design background. Canva makes it easy to find color schemes by allowing us to upload images, and creates a color pallete for our page based on that specific image.
 
+###Formating color	
+- For selecting colors, we use color names like orange, tomato, gold etc, to inform the system that we are going to be using a certain color to display a certain value/text, background, highlight, borders and so on. Hex codes are also used to represent color, and they sometimes start with a "#" followed by 6 letter and/or numbers. An example value "6495ED" will give you a shade of blue. If you are unsure which color you want to choose or you don't know the name of the color you might want to use, or the color you want to use is not available on html, we use color pallets.
+RGB format - A syntax that you will definitely encounter because it allows the use of a color pallete, and it is the easiest to use for me, personally.
+To add on, you can add color to many things in CSS ranging from text color to backgrounds, borders, transitions and many other things. 
+
+background-color	- Used to change background color
+color			- Used to change text color
+
+### Images in CSS
+
 ### Margin and Padding
 Styling with CSS VS Styling Inline.
 
