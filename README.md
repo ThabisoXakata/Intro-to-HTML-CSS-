@@ -380,7 +380,7 @@ To add on, you can add color to many things in CSS ranging from text color to ba
 background-color	- Used to change background color
 color			- Used to change text color
 
-### Images in CSS
+## Images in CSS
 
 ### Margin and Padding
 Styling with CSS VS Styling Inline.
