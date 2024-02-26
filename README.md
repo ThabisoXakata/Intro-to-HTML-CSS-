@@ -309,14 +309,17 @@ This is an example of a table with 3 rows: one header and 2 datarows(fields)
 ## Unit 11: Create a website Portfolio
 For unit 11, we are supposed to create portfolio websites for ourselves to establish an online presence that is active and viewable. Our portfolio websites should include sections for our bio, skills, projects, and contact information. Lastly, incorporate images of your work, establish clickable links to your projects, and create interactive forms for visitor feedback.
 
+# Week 4: What I have learnt so far.
 #CSS: Introduction to Cascading Style Sheets.
 ## Unit 1:
-Cascading Style Sheets contain all the visual styles for our webpahges, adding a visual appeal to your websites. To use CSS style on HTML codes, one has to connect them by using a link that woill allow them to work hand-in-hand. CSS has two parts: The selector and the declaration block.
+Styling with CSS - Refers to Cascading stylesheet, used to dictate how evrything is going to be displayed on your web page. Cascading Style Sheets contain all the visual styles for our webpahges, adding a visual appeal to your websites. To use CSS style on HTML codes, one has to connect them by using a link that woill allow them to work hand-in-hand. CSS has two parts: The selector and the declaration block.
+In-line styling - Refers to adding visual enhancements to your code within HTML without linking a stylesheet from CSS. When used, it can only add style to the sides of the text(from left to right)
+
 The selector: Used to specify the elements that you want to style in your code. There are 5 categories of CSS selectors:
 Declaration Block: Refers to the properties and values stored inside the calebraces of your CSS styling in your stylesheet. i.e {color: tomato; font-size: 10p; text-alignment:center}
 
-## Unit 2
-Types of Selectors:
+# Unit 2
+## Types of Selectors:
 - Simple	- refers to elements based on "name, id, class" elements, always preceded by "." to apply styles on CSS.
   		- id: Used to select a specific HTML element and make it uninque to a specific page.
   		- To select an element with a specific "id", a "#" symbol is inserted on the stylesheet, followed by the id of the element.
@@ -368,24 +371,48 @@ p					<!--Refers to the selector-->
   red;					<!--Refers to the Value-->
 }
 ```
-## Unit 3: Color Schemes
+# Unit 3 
+## Color Schemes
 Refers to the colors you might want to include on to your website. For colorways that we don't know the names of, we use a color pallete that can be easily found even on google, as the goal is to choose a color scheme or specific colors to enhance the visual of your website. If one struggle to find the perfect color scheme for their website, we have many resources we can choose from online, one example that we are currently exploring is the "Canva" online app.
 Canva: Canva is a user-friendly graphic designing online platform for people who do not have a graphic design background. Canva makes it easy to find color schemes by allowing us to upload images, and creates a color pallete for our page based on that specific image.
 
-###Formating color	
+## Formating color	
 - For selecting colors, we use color names like orange, tomato, gold etc, to inform the system that we are going to be using a certain color to display a certain value/text, background, highlight, borders and so on. Hex codes are also used to represent color, and they sometimes start with a "#" followed by 6 letter and/or numbers. An example value "6495ED" will give you a shade of blue. If you are unsure which color you want to choose or you don't know the name of the color you might want to use, or the color you want to use is not available on html, we use color pallets.
 RGB format - A syntax that you will definitely encounter because it allows the use of a color pallete, and it is the easiest to use for me, personally.
 To add on, you can add color to many things in CSS ranging from text color to backgrounds, borders, transitions and many other things. 
 
-background-color	- Used to change background color
+background-color	- Used to change background color. Can be used to reveal hidden information within a web page.
 color			- Used to change text color
 
 ## Images in CSS
+Just like in html, we are focused on GIF, PNG, JPEG, even though there are other formats like bitmap, TIFF and PSD. A new image format is WebP.
+When working with images, it is important toi choose the correct format as others are use to showcase animations, others can be use to make logos, while others offer transparency features.
+CSS allows us to insert background images for decorative purposes and we can configure it to be diplayed however we want it to be diplayed. i.e, we can chose to have the image display repeat, or show a certain portion of the full image and so on.
 
-### Margin and Padding
-Styling with CSS VS Styling Inline.
+# Week 5: What I have learnt so far.
+# Unit 4: 
+##CSS Boxes, Types and Sizes
 
-Styling with CSS - Refers to Cascading stylesheet, used to dictate how evrything is going to be displayed on your web page.
-In-line styling - Refers to adding visual enhancements to your code within HTML without linking a stylesheet from CSS. When used, it can only add style to the sides of the text(from left to right)
-- Margin  - Refers to the area that starts after the section's border.
-- Padding - Refers to the space inside the element.
+Type formatting	- Refers to us using styles to enhance how our text and background is diplayed on our pages. We can also fonts sourced from google and other web development friendly sites like canva etc, using the linking element with the font's URL path.
+
+Size in CSS	- There are 2 types of sizing in CSS: Absolute and relative.
+-	Absolute sizing uses points and pixels, meaning that the image or text does not change with the screen's size.
+-	Relative sizing uses percentages and rems, meaning that images and text change based on the type of screen used to display the content.
+
+The Box Model	- Every element in HTML is like a box that include multiple properties that includes the content, padding, borders and margins. These properties are used to create/design the display layout of web pages.
+
+The layout of a web page:
+Margin	- Represents the space between elements on the page.
+Border	- Refers to the border line between the page/elements margin and padding.
+Padding	- Represents the space between the border and the content of an element or page.
+Content	- This is the actual content of the element or page.
+
+# Unit 5: 
+## Advanced CSS properties and Concepts
+text-decoration	- Refers to properties used to ad a specific decoration to a text, e.g underlinding text, placing a line over text to show that it has be scratched or ruled out.
+hover		- a hover state is triggered when we place our mouse pointers ontop of a text, image value, and that text or image does something like dim, change color, disappear or becomes transparent and so many other things.
+
+Inheritance
+Simply specifies what should happen when there is no value on the chosen element.
+Debugging CSS with Borders and Background Colors
+You can use background color properties to unhide hidden information within a web page. an example is a text written in white on a white back ground, inorder to see that information, you can change the background color to a dark one.
